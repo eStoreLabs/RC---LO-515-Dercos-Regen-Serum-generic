@@ -796,7 +796,7 @@
     width: 100%;
   }
   #es-vichy.es-vichy .es-ingr__subcontainer {
-    display: flex;
+    display: none;
   }
 }
 /*# sourceMappingURL=style.css.map */

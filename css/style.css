@@ -629,8 +629,7 @@
     display: block;
   }
   #es-vichy.es-vichy .es-ingr__subcontainer {
-    display: flex;
-    flex-direction: row;
+    display: none;
   }
   #es-vichy.es-vichy .es-ingr__subtitles {
     display: flex;

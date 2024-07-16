@@ -49,6 +49,11 @@ $background-color_2: #000;
     padding: 0;
 }
 
+sup {
+    font-weight: 300;
+    font-size: 10px;
+}
+
 #es-vichy.es-vichy {
     margin: 0 auto;
     background-color: $background-color_1;
@@ -232,7 +237,7 @@ $background-color_2: #000;
     }
 
     .es-use__text--big {
-        font-weight: 800;
+        font-weight: 300;
         font-size: 21px;
     }
 
@@ -449,7 +454,7 @@ $background-color_2: #000;
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 20px 65px;
+        padding: 20px 87px;
     }
 
     .es-cross {
@@ -458,8 +463,10 @@ $background-color_2: #000;
 
     .es-cross__step {
         margin: 0;
+        display: flex;
+        align-items: center;
         padding: 10px;
-        font-size: 40px;
+        font-size: 60px;
         max-width: 100%;
 
         span {
@@ -469,6 +476,20 @@ $background-color_2: #000;
             font-size: 22px;
             background: #000;
         }
+    }
+
+    .es-cross__link {
+        position: relative;
+        border: none;
+        display: inline-block;
+        padding: 10px 20px;
+        color: white;
+        font-size: 16px;
+        background: #ff1323;
+        text-decoration: none;
+        cursor: pointer;
+        overflow: hidden;
+        transition: background-color 0.3s;
     }
 
     .es-cross__step--1 {
@@ -548,6 +569,7 @@ $background-color_2: #000;
         font-size: 12px;
         text-align: center;
         max-width: 185px;
+        min-height: 95px;
     }
 
     .es-footer {
